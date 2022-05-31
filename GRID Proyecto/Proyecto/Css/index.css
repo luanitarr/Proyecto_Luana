@@ -200,166 +200,58 @@ img{
 
 
 
-PROBANDO 
-*{
-	padding: 0;
-	margin: 0;
-}
-body{
-	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
-	color: black;
-}
-
-#divContenedor{
-	margin: 0 auto;
-	width: 830px;
-	margin-top: 50px;
-}
-	
-.clsImagen{
-	background: #000;
-	border: solid 1px #222;
-	box-shadow: 0px 0px 10px #222;
-	border-radius: 5px;
-	width: 250px;
-	height: 400px;
-	position: relative;
-	overflow: hidden;
-	display: inline-block;
-	margin: 10px;
-}
-	.clsImagen img{
-		border-radius: 5px;
-	}
-	.clsImagen .clsDescripcion{
-		background: #000;
-		position: absolute;
-		width: 250px;
-		height: 400px;
-		top: 250px;
-		-webkit-transform: rotate(90deg);
-			-moz-transform: rotate(90deg);
-				-o-transform: rotate(90deg);
-					transform: rotate(90deg);
-		-webkit-transition: all 1s ease-in;
-			-moz-transition: all 1s ease-in;
-				-o-transition: all 1s ease-in;
-					transition: all 1s ease-in;
-		opacity: 0;
-		border-radius: 5px;
-	}
-		.clsImagen .clsDescripcion *{
-			padding: 10px;
-		}
-	.clsImagen:hover .clsDescripcion{
-		-webkit-transform: rotate(0deg);
-			-moz-transform: rotate(0deg);
-				-o-transform: rotate(0deg);
-					transform: rotate(0deg);
-		opacity: .7;
-		top: 0;
-	}
-
-
-.clsImagen p {
-  color: white;
-}
-
-.clsImagen h2 {
-  color: white;
-}
-
-
-
-
-  PROBANDO
-  body {
-    background-color: #434c50;
-    min-height: 100vh;
-    font: normal 16px sans-serif;
-    padding: 40px 0;
-}
-
-.container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    padding: 30px 50px;
-}
-
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-}
-
-.gallery-container p.page-description {
-    text-align: center;
-    margin: 25px auto;
-    font-size: 18px;
-    color: #999;
-}
-
-.tz-gallery {
-    padding: 40px;
-}
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 2px;
-}
-
-.tz-gallery .lightbox img {
+.btn {
+    color: black;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
     width: 100%;
-    border-radius: 0;
-    position: relative;
-}
-
-.tz-gallery .lightbox:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    opacity: 0;
-    color: #fff;
-    font-size: 26px;
-    font-family: 'Glyphicons Halflings';
-    content: '\e003';
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
-}
-
-
-.tz-gallery .lightbox:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(46, 132, 206, 0.7);
-    content: '';
-    transition: 0.4s;
-}
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-    opacity: 1;
-}
-
-.baguetteBox-button {
-    background-color: transparent !important;
-}
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+    flex-wrap: wrap;
+  }
+  
+  .cards_item {
+    padding: 1rem;
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
     }
-}
-
-
+  }
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.477) 40%, #3f3d3c 100%);
+  }
+  
+  .card_title {
+    color:black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #030303;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  
 
 
