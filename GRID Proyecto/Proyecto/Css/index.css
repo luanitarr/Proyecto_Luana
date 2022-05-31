@@ -1,0 +1,365 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  
+  body {
+  background-image: url(../Imagenes/luana\ baja.jpg);
+  color: black;
+  }
+  
+  nav {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .logo {
+      height: 75px;
+  }
+  
+  ul {
+   display: flex;
+   flex-direction: row;
+  }
+  
+  .menu{
+      list-style-type: none;
+      background-color: rgb(83, 83, 83);
+      width: 100%;
+      justify-content: flex-end;
+      align-items: center;
+  
+  }
+  
+  .menu li a {
+      color:rgb(186,198,195);
+      padding: 20px;
+      display: block;
+  }
+  
+  .menu li a:hover {
+  background-color: #9EA0A1;
+  }
+  
+  
+  h1 {
+      margin: 45px;
+      font-size: 60px;
+      text-align:center;  
+      font-family:'Dancing Script', cursive;
+     text-shadow:4px 2px 10px #000
+  }
+  
+  
+  h2 { 
+  height: 50px;
+  margin: 15px 5px  15px 0px;
+  }
+  
+  h3 {
+      font-size: 20px;
+      text-decoration: underline;
+      padding: 15px;
+      margin: 0px;
+      text-align: left;
+  }
+  
+  h4 {
+      font-size: 25px;
+      text-align: center;
+      border: solid black;
+      }
+  
+  p {
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          margin: 10px 0px 0px 0px ;
+        
+      
+      }
+  
+      div p {
+          display: block;
+          margin: auto;
+          height: auto;
+          float: left;
+          }
+          
+          article h2 {
+              text-align: center;
+          }
+  .proyecto {
+      height: 600px;
+      margin: 50px 50px  0px 200px;
+      border: black solid; 
+  }
+  
+  .opinion {
+      height: 59px;
+  }
+  
+  .foto {
+      height: 500px;
+      margin: 50px 50px  0px 500px;
+      border: white solid;
+  }
+      
+  .uno {
+      display: block;
+      width: 400px;
+      height:auto;
+      text-align: left;
+      }
+      
+  .dos {
+          display: block;
+          width: 400px;
+          height:auto;
+          text-align: right;  
+      }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  
+  .presentacion{
+      height: 500px;
+  }
+  
+  
+  .redes {
+    height: 30px;
+  
+  }
+  
+  footer{
+      list-style-type: none;
+      justify-content: center;
+      font-size: 25px;
+      color:rgb(0, 0, 0); 
+      grid-area: footer;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ESTILOS DE INTERIORISMO 
+
+  body{margin: 0}
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 15px;
+    background: rgb(169, 169, 169);
+  }
+  .container img {
+    width: 100%;
+    display: block;
+  
+  }
+  
+
+  QUIENES SOMOS
+
+h1#portfolio{
+  font-family:'Dancing Script', cursive;
+
+}
+
+h1#titulo{
+  font-family:'Dancing Script', cursive;
+  text-shadow:4px 2px 10px #000
+}
+
+FOTO DE QUIENES SOMOS 
+img{
+    width: 100%;
+}
+
+.fotopresentacion{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 1em;
+}
+
+
+
+
+
+PROBANDO 
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	color: black;
+}
+
+#divContenedor{
+	margin: 0 auto;
+	width: 830px;
+	margin-top: 50px;
+}
+	
+.clsImagen{
+	background: #000;
+	border: solid 1px #222;
+	box-shadow: 0px 0px 10px #222;
+	border-radius: 5px;
+	width: 250px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin: 10px;
+}
+	.clsImagen img{
+		border-radius: 5px;
+	}
+	.clsImagen .clsDescripcion{
+		background: #000;
+		position: absolute;
+		width: 250px;
+		height: 400px;
+		top: 250px;
+		-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+				-o-transform: rotate(90deg);
+					transform: rotate(90deg);
+		-webkit-transition: all 1s ease-in;
+			-moz-transition: all 1s ease-in;
+				-o-transition: all 1s ease-in;
+					transition: all 1s ease-in;
+		opacity: 0;
+		border-radius: 5px;
+	}
+		.clsImagen .clsDescripcion *{
+			padding: 10px;
+		}
+	.clsImagen:hover .clsDescripcion{
+		-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+					transform: rotate(0deg);
+		opacity: .7;
+		top: 0;
+	}
+
+
+.clsImagen p {
+  color: white;
+}
+
+.clsImagen h2 {
+  color: white;
+}
+
+
+
+
+  PROBANDO
+  body {
+    background-color: #434c50;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 40px 0;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+
+
+
