@@ -1,269 +1,658 @@
 *{
-margin: 0;
-padding: 0;
-}
-
-body {
-background-image: url(../Imagenes/luana\ baja.jpg);
-color: black;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-.logo {
-    height: 75px;
-}
-
-ul {
- display: flex;
- flex-direction: row;
-}
-
-.menu{
-    list-style-type: none;
-    background-color: rgb(83, 83, 83);
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-.menu li a {
-    color:rgb(186,198,195);
-    padding: 20px;
-    display: block;
-}
-
-.menu li a:hover {
-background-color: #9EA0A1;
-}
-
-
-h1 {
-    margin: 45px;
-    font-size: 60px;
-    text-align:center;  
-}
-
-
-h2 { 
-height: 50px;
-margin: 15px 5px  15px 0px;
-}
-
-h3 {
-    font-size: 20px;
-    text-decoration: underline;
-    padding: 15px;
-    margin: 0px;
-    text-align: left;
-}
-
-h4 {
-    font-size: 25px;
-    text-align: center;
-    border: solid black;
-    }
-
-p {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        margin: 10px 0px 0px 0px ;
-    
-    }
-
-    div p {
-        display: block;
-        margin: auto;
-        height: auto;
-        float: left;
-        }
-        
-        article h2 {
-            text-align: center;
-        }
-
-
-
-.imagenes {
-    height: 260px;
-    margin: 80px 130px;
-    border: black solid;  
-}
-
-
-
-
-
-
-.proyecto {
-    height: 600px;
-    margin: 50px 50px  0px 200px;
-    border: black solid; 
-}
-
-.opinion {
-    height: 59px;
-}
-
-.foto {
-    height: 500px;
-    margin: 50px 50px  0px 500px;
-    border: white solid;
-}
-    
-.uno {
-    display: block;
-    width: 400px;
-    height:auto;
-    text-align: left;
-    }
-    
-.dos {
-        display: block;
-        width: 400px;
-        height:auto;
-        text-align: right;  
-    }
-
-
-
-
-img {
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-.btn {
-  color: black;
-  padding: 0.8rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-}
-
-.btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
-
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
   }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
+  
+  body {
+  background-image: url(../Imagenes/luana\ baja.jpg);
+  color: black;
   }
+  
+  nav {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .logo {
+      height: 55px;
+  }
+  
+  ul {
+   display: flex;
+   flex-direction: row;
+  }
+  
+  .menu{
+      list-style-type: none;
+      background-color: rgb(83, 83, 83);
+      width: 100%;
+      justify-content: flex-end;
+      align-items: center;
+  
+  }
+  
+  .menu li a {
+      color:rgb(186,198,195);
+      padding: 20px;
+      display: block;
+  }
+  
+  .menu li a:hover {
+  background-color: #9EA0A1;
+  }
+  
+  
+  h1 {
+      margin: 45px;
+      font-size: 60px;
+      text-align:center;  
+      font-family:'Dancing Script', cursive;
+     text-shadow:4px 2px 10px #000
+  }
+  
+  
+  h2 { 
+  height: 50px;
+  margin: 15px 5px  15px 0px;
+  }
+  
+  h3 {
+      font-size: 20px;
+      text-decoration: underline;
+      padding: 15px;
+      margin: 0px;
+      text-align: left;
+  }
+  
+  h4 {
+      font-size: 25px;
+      text-align: center;
+      border: solid black;
+      }
+  
+  p {
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          margin: 10px 0px 0px 0px ;
+        
+      
+      }
+  
+      div p {
+          display: block;
+          margin: auto;
+          height: auto;
+          float: left;
+          }
+          
+          article h2 {
+              text-align: center;
+          }
+  .proyecto {
+      height: 600px;
+      margin: 50px 50px  0px 200px;
+      border: black solid; 
+  }
+  
+  .opinion {
+      height: 59px;
+  }
+  
+  .foto {
+      height: 500px;
+      margin: 50px 50px  0px 500px;
+      border: white solid;
+  }
+      
+  .uno {
+      display: block;
+      width: 400px;
+      height:auto;
+      text-align: left;
+      }
+      
+  .dos {
+          display: block;
+          width: 400px;
+          height:auto;
+          text-align: right;  
+      }
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  
+  .presentacion{
+      height: 500px;
+  }
+  
+  
+  .redes {
+    height: 30px;
+  
+  }
+  
+  footer{
+      list-style-type: none;
+      justify-content: center;
+      font-size: 25px;
+      color:rgb(0, 0, 0); 
+      grid-area: footer;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+ESTILOS DE INTERIORISMO 
+
+  body{margin: 0}
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 15px;
+    background: rgb(169, 169, 169);
+  }
+  .container img {
+    width: 100%;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+  
+  }
+  .container img:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+
+
+  
+
+  QUIENES SOMOS
+
+h1#portfolio{
+  font-family:'Dancing Script', cursive;
+
 }
 
-.card {
-  background-color: rgb(0, 0, 0);
-  border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+h1#titulo{
+  font-family:'Dancing Script', cursive;
+  text-shadow:4px 2px 10px #000
+}
+
+
+
+FOTO DE QUIENES SOMOS 
+img{
+    width: 100%;
+}
+
+.fotopresentacion{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 1em;
+}
+
+.container-animation{
+    transition: ease-in-out 1.5s;
+}
+.container-animation:hover{
+    transform: scale(1.4) translateY(15px);
+}
+
+
+PROBANDO 
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+    color: black;
+}
+
+#divContenedor{
+    margin: 0 auto;
+    width: 830px;
+    margin-top: 50px;
+}
+    
+.clsImagen{
+    background: #000;
+    border: solid 1px #222;
+    box-shadow: 0px 0px 10px #222;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+}
+    .clsImagen img{
+        border-radius: 5px;
+    }
+    .clsImagen .clsDescripcion{
+        background: #000;
+        position: absolute;
+        width: 250px;
+        height: 400px;
+        top: 250px;
+        -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                    transform: rotate(90deg);
+        -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+                -o-transition: all 1s ease-in;
+                    transition: all 1s ease-in;
+        opacity: 0;
+        border-radius: 5px;
+    }
+        .clsImagen .clsDescripcion *{
+            padding: 10px;
+        }
+    .clsImagen:hover .clsDescripcion{
+        -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+        opacity: .7;
+        top: 0;
+    }
+
+.clsImagen p {
+  color: white;
+}
+
+.clsImagen h2 {
+  color: white;
+}
+
+
+
+  PROBANDO
+  body {
+    background-color: #434c50;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 40px 0;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+
+
+
+BOOTSTRAP
+ INDEX
+
+  .gallery-list.col-md-12,
+  .gallery-list.col-md-6,
+  .gallery-list.col-md-4,
+  .gallery-list.col-md-3,
+  .gallery-list.col-md-2,
+  .gallery-list.col-md-1 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+  
+  .image-grid {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    transform: scale(3);
+  }
+  
+
+  
+  .image-grid:hover > img,
+  .image-grid.hover > img {
+    opacity: 0.1;
+  }
+  
+  .image-grid:hover p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .js-modal-image {
+    max-width: 100%;
+  }
+  
+  .modal-body {
+    padding: 0;
+  }
+  
+  .modal-open .modal {
+      padding-top: 26vh;
+      background-color: transparent;
+  }
+  
+  @media (max-width: 992px) {
+    .modal-open .modal {
+      padding-top: 100px;
+    }
+  
+    .image-grid {
+      width: 100%;
+      height: 180px;
+    }
+  
+  }
+  
+  
+  @media (max-width: 768px) {
+    .gallery.container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .gallery-list.col-md-12,
+    .gallery-list.col-md-6,
+    .gallery-list.col-md-4,
+    .gallery-list.col-md-3,
+    .gallery-list.col-md-2,
+    .gallery-list.col-md-1 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .gallery-row.row {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  
+    .gallery-row.row.pdtb-40 {
+      padding-top: 10px;
+    }
+  
+    .horizontal-nav {
+      margin-bottom: 0;
+    }
+  
+    .modal-open .modal {
+      padding-top: 30vh;
+    }
+  
+  }
+ 
+
+
+
+
+
+  probando
+  
+/* MAIN FORMULARIO */
+
+.body-contact{
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
-.card_content {
-  padding: 1rem;
-  background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.477) 40%, #3f3d3c 100%);
+main{
+  flex: 1;
 }
 
-.card_title {
-  color:black;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
+.tittle-contact{
+  display: flex;
+  justify-content: start;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin: 30px;
+  justify-content: center;
 }
 
-.card_text {
-  color: #030303;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;    
-  font-weight: 400;
+.tittle-contact h1{
+  border-radius: 4px;
+  padding: 0px 10px;
 }
-.made_by{
-  font-weight: 400;
-  font-size: 13px;
-  margin-top: 35px;
+
+.contact-container{
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row-reverse;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+
+.contact-item{
+  flex-grow: 1;
+  width: 50%;
+}
+
+.map-container{
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 60px;
+  position: relative;
+  width: 90%;
+  background-color: #dddddd;
+}
+
+.map{
+  width: 90%;
+  height: 18em;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #dddddd;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+  width: 90%;
+  
+}
+
+.form-control {
+  padding-bottom: 1em;
+  position: relative;
+  width: 100%;
+  background-color: #dddddd;
+  border: none;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8em;
+  font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.form-control #message {
+  height: 10em;
+  width: 100%;
+  font-size: 0.8em;
+  font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.form-control #message:focus {
+  outline: 0;
+  border-color: #b38f79;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #b38f79;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #df4d49;
+  color: #252525;
+  padding: 0px;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Kalam', cursive;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  background: #d8c1ad;
+  color: #252525;
+  margin: auto;
+  padding: 10px;
+  font-size: 1em;
+  font-family: 'Kalam', cursive;
+  font-weight: 800;
+  text-transform: uppercase;
   text-align: center;
 }
 
-
-
-footer{
-    list-style-type: none;
-    justify-content: center;
-    font-size: 25px;
-    color:rgb(0, 0, 0); 
-    grid-area: footer;
+button[type="submit"]:hover {
+  background: #df4d49;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.redes {
-    height: 30px;
-
+button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.img-content {
-  display: none;
-}
-
-.social li {
-  display: inline-block;
+.contact-message {
+  background-color: #dddddd;
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: 'Kalam', cursive;
 }
 
 
-
-@supports (display: grid) {
-  .gallery .grid 
-    grid-gap: 1rem;
-  
-}
-
-@media(min-width:md) {
-  nav ul 
-    justify-content: flex-end;
-  
-}
-
-@media screen and (max-width: 1024px) {
-  img:hover 
-    transform: none;
+@media (max-width: 900px){
+  .contact-container{
+      flex-direction: column-reverse;
+      width: 100%;
   }
-  
-  
 
- 
-.presentacion{
-    height: 60spx;
-    margin: 80px 130px;
+  .contact-item{
+      width: 100%;
+    }
+}
+
+@media (max-width: 380px){
+  .contact-container{
+      font-size: 15px;
+  }
 }
