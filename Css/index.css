@@ -1,0 +1,269 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+background-image: url(../Imagenes/luana\ baja.jpg);
+color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 75px;
+}
+
+ul {
+ display: flex;
+ flex-direction: row;
+}
+
+.menu{
+    list-style-type: none;
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.menu li a {
+    color:rgb(186,198,195);
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+background-color: #9EA0A1;
+}
+
+
+h1 {
+    margin: 45px;
+    font-size: 60px;
+    text-align:center;  
+}
+
+
+h2 { 
+height: 50px;
+margin: 15px 5px  15px 0px;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 15px;
+    margin: 0px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    border: solid black;
+    }
+
+p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px ;
+    
+    }
+
+    div p {
+        display: block;
+        margin: auto;
+        height: auto;
+        float: left;
+        }
+        
+        article h2 {
+            text-align: center;
+        }
+
+
+
+.imagenes {
+    height: 260px;
+    margin: 80px 130px;
+    border: black solid;  
+}
+
+
+
+
+
+
+.proyecto {
+    height: 600px;
+    margin: 50px 50px  0px 200px;
+    border: black solid; 
+}
+
+.opinion {
+    height: 59px;
+}
+
+.foto {
+    height: 500px;
+    margin: 50px 50px  0px 500px;
+    border: white solid;
+}
+    
+.uno {
+    display: block;
+    width: 400px;
+    height:auto;
+    text-align: left;
+    }
+    
+.dos {
+        display: block;
+        width: 400px;
+        height:auto;
+        text-align: right;  
+    }
+
+
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: black;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.477) 40%, #3f3d3c 100%);
+}
+
+.card_title {
+  color:black;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #030303;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+
+footer{
+    list-style-type: none;
+    justify-content: center;
+    font-size: 25px;
+    color:rgb(0, 0, 0); 
+    grid-area: footer;
+}
+
+.redes {
+    height: 30px;
+
+}
+
+.img-content {
+  display: none;
+}
+
+.social li {
+  display: inline-block;
+}
+
+
+
+@supports (display: grid) {
+  .gallery .grid 
+    grid-gap: 1rem;
+  
+}
+
+@media(min-width:md) {
+  nav ul 
+    justify-content: flex-end;
+  
+}
+
+@media screen and (max-width: 1024px) {
+  img:hover 
+    transform: none;
+  }
+  
+  
+
+ 
+.presentacion{
+    height: 60spx;
+    margin: 80px 130px;
+}
