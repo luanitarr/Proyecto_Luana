@@ -1,0 +1,62 @@
+body{
+    font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+    color: black;
+}
+
+#divContenedor{
+    margin: 0 auto;
+    width: 830px;
+    margin-top: 50px;
+}
+    
+.clsImagen{
+    background: #000;
+    border: solid 1px #222;
+    box-shadow: 0px 0px 10px #222;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+}
+    .clsImagen img{
+        border-radius: 5px;
+    }
+    .clsImagen .clsDescripcion{
+        background: #000;
+        position: absolute;
+        width: 250px;
+        height: 400px;
+        top: 250px;
+        -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                    transform: rotate(90deg);
+        -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+                -o-transition: all 1s ease-in;
+                    transition: all 1s ease-in;
+        opacity: 0;
+        border-radius: 5px;
+    }
+        .clsImagen .clsDescripcion *{
+            padding: 10px;
+        }
+    .clsImagen:hover .clsDescripcion{
+        -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+        opacity: .7;
+        top: 0;
+    }
+
+.clsImagen p {
+  color: white;
+}
+
+.clsImagen h2 {
+  color: white;
+}

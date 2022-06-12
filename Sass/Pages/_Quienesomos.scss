@@ -1,0 +1,33 @@
+QUIENES SOMOS
+
+h1#portfolio{
+  font-family:'Dancing Script', cursive;
+
+}
+
+h1#titulo{
+  font-family:'Dancing Script', cursive;
+  text-shadow:4px 2px 10px #000
+}
+
+
+
+FOTO DE QUIENES SOMOS 
+img{
+    width: 100%;
+}
+
+.fotopresentacion{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 1em;
+}
+
+.container-animation{
+    transition: ease-in-out 1.5s;
+}
+.container-animation:hover{
+    transform: scale(1.4) translateY(15px);
+}

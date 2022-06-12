@@ -14,7 +14,7 @@
   }
   
   .logo {
-      height: 55px;
+      height: 65px;
   }
   
   ul {
@@ -62,16 +62,19 @@
       padding: 15px;
       margin: 0px;
       text-align: left;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   }
   
   h4 {
       font-size: 25px;
       text-align: center;
       border: solid black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
   
   p {
-          font-family: 'Times New Roman', Times, serif;
+          font-family: 'Kalam', cursive;
           font-size: 20px;
           margin: 10px 0px 0px 0px ;
         
@@ -213,11 +216,8 @@ img{
 }
 
 
-PROBANDO 
-*{
-    padding: 0;
-    margin: 0;
-}
+GALERIA NUESTROS TRABAJOS 
+
 body{
     font: normal 12px Tahoma, Verdana, Arial, sans-serif;
     color: black;
@@ -283,207 +283,10 @@ body{
 
 
 
-  PROBANDO
-  body {
-    background-color: #434c50;
-    min-height: 100vh;
-    font: normal 16px sans-serif;
-    padding: 40px 0;
-}
-
-.container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    padding: 30px 50px;
-}
-
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-}
-
-.gallery-container p.page-description {
-    text-align: center;
-    margin: 25px auto;
-    font-size: 18px;
-    color: #999;
-}
-
-.tz-gallery {
-    padding: 40px;
-}
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 2px;
-}
-
-.tz-gallery .lightbox img {
-    width: 100%;
-    border-radius: 0;
-    position: relative;
-}
-
-.tz-gallery .lightbox:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    opacity: 0;
-    color: #fff;
-    font-size: 26px;
-    font-family: 'Glyphicons Halflings';
-    content: '\e003';
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
-}
-
-.tz-gallery .lightbox:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(46, 132, 206, 0.7);
-    content: '';
-    transition: 0.4s;
-}
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-    opacity: 1;
-}
-
-.baguetteBox-button {
-    background-color: transparent !important;
-}
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
 
 
 
-
-BOOTSTRAP
- INDEX
-
-  .gallery-list.col-md-12,
-  .gallery-list.col-md-6,
-  .gallery-list.col-md-4,
-  .gallery-list.col-md-3,
-  .gallery-list.col-md-2,
-  .gallery-list.col-md-1 {
-    padding-left: 7.5px;
-    padding-right: 7.5px;
-  }
-  
-  .image-grid {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 15px;
-    background-color: #fff;
-    overflow: hidden;
-  }
-  
-  
-  .image-grid img {
-    width: 100%;
-    height: auto;
-    transform: scale(3);
-  }
-  
-
-  
-  .image-grid:hover > img,
-  .image-grid.hover > img {
-    opacity: 0.1;
-  }
-  
-  .image-grid:hover p {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-  
-  .js-modal-image {
-    max-width: 100%;
-  }
-  
-  .modal-body {
-    padding: 0;
-  }
-  
-  .modal-open .modal {
-      padding-top: 26vh;
-      background-color: transparent;
-  }
-  
-  @media (max-width: 992px) {
-    .modal-open .modal {
-      padding-top: 100px;
-    }
-  
-    .image-grid {
-      width: 100%;
-      height: 180px;
-    }
-  
-  }
-  
-  
-  @media (max-width: 768px) {
-    .gallery.container {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  
-    .gallery-list.col-md-12,
-    .gallery-list.col-md-6,
-    .gallery-list.col-md-4,
-    .gallery-list.col-md-3,
-    .gallery-list.col-md-2,
-    .gallery-list.col-md-1 {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  
-    .gallery-row.row {
-      margin-left: -15px;
-      margin-right: -15px;
-    }
-  
-    .gallery-row.row.pdtb-40 {
-      padding-top: 10px;
-    }
-  
-    .horizontal-nav {
-      margin-bottom: 0;
-    }
-  
-    .modal-open .modal {
-      padding-top: 30vh;
-    }
-  
-  }
- 
-
-
-
-
-
-  probando
-  
-/* MAIN FORMULARIO */
-
+PAGINA DE CONTACTO
 .body-contact{
   display: flex;
   flex-direction: column;
@@ -639,7 +442,6 @@ button[type="submit"]:active {
   font-family: 'Kalam', cursive;
 }
 
-
 @media (max-width: 900px){
   .contact-container{
       flex-direction: column-reverse;
@@ -656,3 +458,178 @@ button[type="submit"]:active {
       font-size: 15px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GALERIA INDEX
+
+.categories {
+  margin: 2% 1.5%;
+  z-index: 9990;
+}
+
+.categories button {
+  border: 2px solid #ddd;
+  z-index: 9990;
+  border-radius: 3px;
+  min-width: 80px;
+  min-height: 37px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: 600;
+  color: #ccc;
+  outline: none;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  border: 2px solid #aaa;
+  color: #999;
+}
+
+.categories button:focus {
+  border: 2px solid #3498ff;
+  color: #3498ff;
+}
+
+.image-gallery {
+  z-index: 9990;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.image-card {
+  display: inline-block;
+  width: 31%;
+  margin: 1.5% 0 0 1.5%;
+  padding-top: 21%;
+  border-radius: 4px;
+  background-color: #FFF;
+  position: relative;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-card:hover {
+  -webkit-box-shadow: 0 0 8px 0 #3498ff;
+  box-shadow: 0 0 8px 0 #3498ff;
+}
+
+.no-event {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 100%;
+  pointer-events: none;
+}
+
+.both {
+  clear: both; 
+}
+
+@media screen and (max-width: 480px) {
+  .image-card {
+    width: 45%;
+    padding-top: 45%;
+    margin: 1.5%;
+  }
+  
+  .categories {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .categories button {
+    width: 47.5%;
+    float: none;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .image-card {
+    width: 80%;
+    padding-top: 80%;
+    margin: 2% 10%;
+  }
+  
+  .categories button {
+    width: 80%;
+    float: none;
+    display: block;
+    margin: 0px auto 7px auto;
+    font-size: 5vmin;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#content{
+  font-family:'Dancing Script', cursive;
+  font-size:x-large;
+  font-weight:400;
+  width:900px;
+  border-radius: 40px 40px 40px 40px;
+  float:center;
+  margin-top:0px;
+ 
+}
+
+
+
+
+
+
+
+
+

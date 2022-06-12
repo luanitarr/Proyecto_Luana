@@ -1,0 +1,42 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        }
+        
+    
+        
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .logo {
+            height: 55px;
+        }
+        
+        ul {
+         display: flex;
+         flex-direction: row;
+        }
+        
+        .menu{
+            list-style-type: none;
+            background-color: rgb(83, 83, 83);
+            width: 100%;
+            justify-content: flex-end;
+            align-items: center;
+        
+        }
+        
+        .menu li a {
+            color:rgb(186,198,195);
+            padding: 20px;
+            display: block;
+        }
+        
+        .menu li a:hover {
+        background-color: #9EA0A1;
+        }
+        
+    
