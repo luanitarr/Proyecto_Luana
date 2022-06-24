@@ -1,0 +1,174 @@
+/* Botones */
+.btn {
+    padding: 1rem 2rem 1.5rem 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px; }
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px 0 rgba(40, 40, 44, 0.37);
+      backdrop-filter: blur(11px);
+      -webkit-backdrop-filter: blur(11px);
+      border-radius: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      transition: 1s ease-in-out;
+      cursor: pointer; }
+  
+  .btn__light {
+    padding: 1rem 2rem 1.5rem 2rem;
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px; }
+    .btn__light:hover {
+      background-color: #000000;
+      text-decoration: none;
+      color: #ffffff;
+      transition: .5s ease-in-out;
+      cursor: pointer; }
+  
+  .enviar {
+    padding: 1rem 6rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px; }
+    .enviar:hover {
+      background-color: #ffffff;
+      text-decoration: none;
+      color: #000000;
+      transition: .5s ease-in-out;
+      cursor: pointer; }
+  
+  @media (max-width: 768px) {
+    .enviar {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; } }
+  
+  .enviar__light {
+    padding: 1rem 6rem;
+    margin: 2rem 2rem 2rem 0;
+    font-size: 2rem;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    grid-column: 1/2;
+    justify-self: center; }
+    .enviar__light:hover {
+      background-color: #000000;
+      text-decoration: none;
+      color: #ffffff;
+      transition: .5s ease-in-out;
+      cursor: pointer; }
+  
+  .activo {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 44, 0.37);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border-radius: 10px;
+    cursor: pointer; }
+  
+  .activo2 {
+    background: #000000; }
+  
+  .link {
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 00;
+    line-height: 1.2;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+    .link:hover {
+      text-decoration: none;
+      cursor: pointer;
+      background-size: 100% 2px;
+      color: #ffffff; }
+  
+  .link__light {
+    color: #000000;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 00;
+    line-height: 1.2;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s; }
+    .link__light:hover {
+      text-decoration: none;
+      cursor: pointer;
+      background-size: 100% 2px;
+      color: #000000; }
+  
+  .sobre-hero,
+  .inmuebles-hero,
+  .catalogo-hero, .proyectos-hero,
+  .disenios-hero,
+  .portafolioint-hero, .portafolioext-hero,
+  .contacto-hero {
+    position: relative;
+    display: flex;
+    height: 100vh; }
+    .sobre-hero::before,
+    .inmuebles-hero::before,
+    .catalogo-hero::before, .proyectos-hero::before,
+    .disenios-hero::before,
+    .portafolioint-hero::before, .portafolioext-hero::before,
+    .contacto-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: url(https://cdn.pixabay.com/photo/2017/05/04/16/37/meeting-2284501_960_720.jpg);
+      background-position: center center;
+      background-size: cover;
+      opacity: .5;
+      background-attachment: fixed; }
+  
+  .inmuebles-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/03/53/architecture-1867187_960_720.jpg); }
+  
+  .catalogo-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2012/03/04/00/43/architecture-22039_960_720.jpg); }
+  
+  .proyectos-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_960_720.jpg); }
+  
+  .disenios-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/17/20/couch-1835923_960_720.jpg); }
+  
+  .portafolioint-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/02/17/07/living-room-modern-tv-4813591_960_720.jpg); }
+  
+  .portafolioext-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2014/01/30/01/57/outside-254716_960_720.jpg); }
+  
+  .contacto-hero::before {
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/01/23/55/telephone-586266_960_720.jpg); }
