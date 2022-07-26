@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="all"/>
+  <meta name="keywords" Content="">
+  <meta name="description" content="">
+  <meta name="author" content="Luana Rodriguez">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <title>CoderHouse</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="./entrega1.css"/>
+    <!-- Custom-Scripts -->
+  <script src="./entrega1.js"></script>
+</head>
+<body>
+    <section class="contenedorTitulo">
+        <article class="titulo">
+            <h1>Simulador interactivo</h1>
+        </article>
+    </section>
+    <section class="contenedorDescripcion">
+        <article class="descripcion">
+            <h3><span>#</span>Descripción</h2>
+            <p>Herramienta para calcular % de descuento + % de iva asociado a un monto puesto por el usuario.</p>
+        </article>
+    </section>
+    <section class="contenedorEjercicio">
+        <article class="ejercicio">
+            <label>Ingrese el monto total de su compra</label>
+            <input placeholder="Introduzca un valor" type="number" id="valorProducto" name="Valor neto del producto" />
+            <label>Descuentos <span>30% por compras sobre 15000</span></label>
+            <input type="text" id="descuentoAsosiado" name="descuento" disabled />
+            <label>IVA del producto <span>19%</span></label>
+            <input type="text" id="ivaProducto" name="Iva del producto" disabled />
+            <label>Total a pagar</label>
+            <input type="text" id="total" name="total" disabled />
+            <button id="btn_calcula" onclick="calcular();" type="submit">Calcular</button>
+            <button id="btn_limpiar" onclick="location.reload()">Limpiar</button>
+        </article>
+    </section>
+ 
+</body>
+</html>
